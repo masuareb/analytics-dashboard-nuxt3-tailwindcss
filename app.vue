@@ -4,6 +4,7 @@
     <Header />
     <div>
       <!-- Sidebar -->
+      <Sidebar />
 
       <!-- Main Section -->
       <main>
