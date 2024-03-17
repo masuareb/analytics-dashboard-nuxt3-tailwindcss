@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss',
-    'nuxt-headlessui'
+    'nuxt-headlessui',
+    'nuxt-icon',
   ],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
