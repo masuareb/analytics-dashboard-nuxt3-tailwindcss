@@ -13,6 +13,7 @@
     CategoryScale,
     LinearScale,
     PointElement,
+    LineElement,
     Title,
     Tooltip,
     Legend,
