@@ -18,6 +18,7 @@
         <SalesChart />
 
         <!-- Recent orders -->
+        <RecentOrders />
       </main>
       <div>
         <!-- Profile info -->
