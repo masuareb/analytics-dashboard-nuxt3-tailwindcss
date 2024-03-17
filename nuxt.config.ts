@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     'nuxt-icon',
     '@vueuse/nuxt',
+    '@morev/vue-transitions/nuxt',
   ],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
