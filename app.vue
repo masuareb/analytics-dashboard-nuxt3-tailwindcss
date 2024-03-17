@@ -15,6 +15,7 @@
         <NewCustomers />
 
         <!-- Sales Chart -->
+        <SalesChart />
 
         <!-- Recent orders -->
       </main>
