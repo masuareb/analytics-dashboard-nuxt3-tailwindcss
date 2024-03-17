@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     'nuxt-icon',
+    '@vueuse/nuxt',
   ],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
