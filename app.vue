@@ -20,8 +20,9 @@
         <!-- Recent orders -->
         <RecentOrders />
       </main>
-      <div>
+      <div class="hidden py-5 lg:cols-span-3 lg:block">
         <!-- Profile info -->
+        <ProfileInfo />
 
         <!-- Reminders -->
       </div>
