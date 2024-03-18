@@ -19,7 +19,7 @@
     --card: 0 0% 100%;
     --card-foreground: 222.2 47.4% 11.2%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 210, 100%, 49%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -55,7 +55,7 @@
     --card: 224 71% 4%;
     --card-foreground: 213 31% 91%;
 
-    --primary: 210 40% 98%;
+    --primary: 210, 100%, 49%;
     --primary-foreground: 222.2 47.4% 1.2%;
 
     --secondary: 222.2 47.4% 11.2%;
@@ -75,8 +75,17 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    @apply bg-background text-foreground selection:bg-primary selection:text-primary-foreground;
   }
 }
 
+.dropdown-enter-active,
+.dropdown-leave-active {
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-enter-from,
+.dropdown-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}

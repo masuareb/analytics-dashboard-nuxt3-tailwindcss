@@ -1,7 +1,7 @@
 <template>
   <section class="mt-5">
     <h3 class="font-bold">New Customers</h3>
-    <div class="mt-5 flex w-full items-start gap-6 overflow-x-auto round-lg border bg-background p-5 scrollbar-thin scrollbar-thumb-input scrollbar-thumb-rounded-md">
+    <div class="mt-5 flex w-full items-start gap-6 overflow-x-auto rounded-lg border bg-background p-5 scrollbar-thin scrollbar-thumb-input scrollbar-thumb-rounded-md">
       <div class="flex shrink-0 flex-col items-center gap-2">
         <button class="flex h-10 w-10 items-center justify-center rounded-full bg-muted">
           <Icon name="heroicons:plus" class="w-5 h-5" />
